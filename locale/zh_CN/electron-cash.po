@@ -7191,7 +7191,7 @@ msgstr ""
 
 #: gui/qt/main_window.py:2048
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:831
-msgid "Your fee is too high.  Max is 50 sat/byte."
+msgid "Your fee is too high.  Max is 500 sat/byte."
 msgstr ""
 
 #: plugins/labels/qt.py:130

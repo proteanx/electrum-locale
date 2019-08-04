@@ -7231,7 +7231,7 @@ msgstr "Ihr ganzer Transaktionsverlauf wird erneut vom Server heruntergeladen un
 
 #: gui/qt/main_window.py:2048
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:831
-msgid "Your fee is too high.  Max is 50 sat/byte."
+msgid "Your fee is too high.  Max is 500 sat/byte."
 msgstr "Ihre Gebühr ist zu hoch. Maximum ist 50 Sat/byte."
 
 #: plugins/labels/qt.py:130
