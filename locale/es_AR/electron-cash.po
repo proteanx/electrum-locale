@@ -390,8 +390,8 @@ msgid "A copy of your wallet file was created in"
 msgstr "Una copia del archivo de tu cartera fue creado en"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1175
-msgid "A deterministic wallet will be created using the provided master private key. This wallet will be able to freely send and receive Bitcoin Cash."
-msgstr "Una cartera determinística será creada usando la clave privada maestra proporcionada. Esta cartera será capaz de enviar y recibir Bitcoin Cash libremente."
+msgid "A deterministic wallet will be created using the provided master private key. This wallet will be able to freely send and receive DeVault."
+msgstr "Una cartera determinística será creada usando la clave privada maestra proporcionada. Esta cartera será capaz de enviar y recibir DeVault libremente."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:1173
 msgid "A deterministic wallet will be created using the provided master public key. This wallet will be watching-only."
@@ -874,12 +874,12 @@ msgid "Bit rate [kbps]: "
 msgstr "Velocidad [kbps]: "
 
 #: gui/qt/main_window.py:1010
-msgid "Bitcoin Cash address where the payment should be received. Note that each payment request uses a different Bitcoin Cash address."
-msgstr "Dirección Bitcoin Cash donde el pago debe ser recibido. Tener en cuenta que cada solicitud de pago utiliza una dirección Bitcoin Cash diferente."
+msgid "DeVault address where the payment should be received. Note that each payment request uses a different DeVault address."
+msgstr "Dirección DeVault donde el pago debe ser recibido. Tener en cuenta que cada solicitud de pago utiliza una dirección DeVault diferente."
 
 #: gui/qt/main_window.py:1543
-msgid "Bitcoin Cash transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Transacciones en Bitcoin Cash por lo general no son gratis. Una tasa por transacción es pagada por el remitente de los fondos."
+msgid "DeVault transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transacciones en DeVault por lo general no son gratis. Una tasa por transacción es pagada por el remitente de los fondos."
 
 #: gui/qt/main_window.py:2204
 msgid "Block explorer link copied to clipboard"
@@ -2136,8 +2136,8 @@ msgid "Electron Cash currently only supports Cash Account types 1 & 2"
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:29
-msgid "Electron Cash is an SPV wallet for Bitcoin Cash"
-msgstr "Electron Cash es una cartera SPV para Bitcoin Cash"
+msgid "Electron Cash is an SPV wallet for DeVault"
+msgstr "Electron Cash es una cartera SPV para DeVault"
 
 #: lib/base_wizard.py:453
 msgid "Electron Cash is generating your addresses, please wait."
@@ -2213,7 +2213,7 @@ msgid "Electron Cash was unable to produce a transaction export."
 msgstr "Electron Cash no pudo exportar transacción."
 
 #: gui/qt/main_window.py:704
-msgid "Electron Cash's focus is speed, with low resource usage and simplifying Bitcoin Cash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin Cash system."
+msgid "Electron Cash's focus is speed, with low resource usage and simplifying DeVault. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the DeVault system."
 msgstr ""
 
 #: plugins/email_requests/__init__.py:3
@@ -2369,16 +2369,16 @@ msgid "Enter a label to name your device:"
 msgstr "Ingresar nombre de dispositivo:"
 
 #: lib/base_wizard.py:136
-msgid "Enter a list of Bitcoin Cash addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Ingresar lista de direcciones Bitcoin Cash (esto creará una cartera solo-para-ver), o una lista de claves privadas."
+msgid "Enter a list of DeVault addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Ingresar lista de direcciones DeVault (esto creará una cartera solo-para-ver), o una lista de claves privadas."
 
 #: gui/qt/main_window.py:2507
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr "Ingresar lista de salidas en el campo 'Pagar a'."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:854
-msgid "Enter a list of private keys to create a regular spending wallet. Alternatively, you can create a 'watching-only' wallet by entering a list of Bitcoin Cash addresses."
-msgstr "Ingresar lista de claves privadas para crear cartera expendedora regular. Alternativamente, es posible crear cartera solo-para-ver ingresando lista de direcciones Bitcoin Cash."
+msgid "Enter a list of private keys to create a regular spending wallet. Alternatively, you can create a 'watching-only' wallet by entering a list of DeVault addresses."
+msgstr "Ingresar lista de claves privadas para crear cartera expendedora regular. Alternativamente, es posible crear cartera solo-para-ver ingresando lista de direcciones DeVault."
 
 #: plugins/keepkey/clientbase.py:46 plugins/trezor/clientbase.py:273
 msgid "Enter a new PIN for your {}:"
@@ -2558,8 +2558,8 @@ msgid "Expired"
 msgstr "Expirado"
 
 #: gui/qt/main_window.py:1132
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin Cash addresses."
-msgstr "Solicitudes expiradas deben eliminarse manualmente de la lista, en orden de liberar la correspondiente dirección Bitcoin Cash."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding DeVault addresses."
+msgstr "Solicitudes expiradas deben eliminarse manualmente de la lista, en orden de liberar la correspondiente dirección DeVault."
 
 #: gui/qt/invoice_list.py:36 gui/qt/main_window.py:2647
 msgid "Expires"
@@ -2682,8 +2682,8 @@ msgid "Firmware Version"
 msgstr "Versión de firmware"
 
 #: plugins/ledger/ledger.py:31
-msgid "Firmware version (or \"Bitcoin Cash\" app) too old for CashAddr support. "
-msgstr "Versión de firmware (o app \"Bitcoin Cash\") demasiado antigua para soportar CashAddr. "
+msgid "Firmware version (or \"DeVault\" app) too old for CashAddr support. "
+msgstr "Versión de firmware (o app \"DeVault\") demasiado antigua para soportar CashAddr. "
 
 #: gui/qt/fee_slider.py:34
 msgid "Fixed rate: "
@@ -2986,7 +2986,7 @@ msgstr ""
 
 #: gui/qt/network_dialog.py:331
 msgid "If enabled, restricts Electron Cash to connecting to servers only marked as 'preferred'."
-msgstr "Si habilitado, restringe Bitcoin Cash a conectarse solo a servidores marcados como 'preferidos'."
+msgstr "Si habilitado, restringe DeVault a conectarse solo a servidores marcados como 'preferidos'."
 
 #: plugins/shuffle/qt.py:1248
 msgid "If insufficient shuffled funds are available, you can wait a few minutes as coins are shuffled in the background."
@@ -3068,8 +3068,8 @@ msgstr ""
 
 #: lib/base_wizard.py:277
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:686
-msgid "If you want the wallet to use Bitcoin Cash addresses use m/44'/145'/0'"
-msgstr "Si quieres que la cartera use direcciones Bitcoin Cash usa m/44'/145'/0'"
+msgid "If you want the wallet to use DeVault addresses use m/44'/145'/0'"
+msgstr "Si quieres que la cartera use direcciones DeVault usa m/44'/145'/0'"
 
 #: lib/base_wizard.py:276
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:685
@@ -3120,12 +3120,12 @@ msgid "Import Bitcoin Addresses"
 msgstr "Importar Direcciones Bitcoin"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:853
-msgid "Import Bitcoin Cash Addresses or Private Keys"
-msgstr "Importar Direcciones Bitcoin Cash o Claves Privadas"
+msgid "Import DeVault Addresses or Private Keys"
+msgstr "Importar Direcciones DeVault o Claves Privadas"
 
 #: lib/base_wizard.py:86
-msgid "Import Bitcoin Cash addresses or private keys"
-msgstr "Importar direcciones Bitcoin Cash o claves privadas"
+msgid "Import DeVault addresses or private keys"
+msgstr "Importar direcciones DeVault o claves privadas"
 
 #: gui/qt/main_window.py:600 gui/qt/main_window.py:3632
 msgid "Import addresses"
@@ -3306,8 +3306,8 @@ msgstr "Monto Inválido"
 #: gui/qt/main_window.py:3006 gui/qt/main_window.py:3026
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:234
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:278
-msgid "Invalid Bitcoin Cash address."
-msgstr "Dirección Bitcoin Cash Inválida."
+msgid "Invalid DeVault address."
+msgstr "Dirección DeVault Inválida."
 
 #: gui/text.py:326 gui/stdio.py:169
 msgid "Invalid Bitcoin address"
@@ -3350,7 +3350,7 @@ msgstr "Monto Inválido"
 
 #: gui/qt/main_window.py:2293
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1196
-msgid "Invalid bitcoincash URI:"
+msgid "Invalid devault URI:"
 msgstr "Bitcoincash URI inválido:"
 
 #: plugins/ledger/ledger.py:203
@@ -3580,8 +3580,8 @@ msgid "Make sure you install it with python3"
 msgstr "Asegurarse de ser instalado coon python3"
 
 #: gui/qt/main_window.py:464
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoin Cash to be sent to this wallet."
-msgstr "Asegurarse de tener la frase semilla o las claves privadas antes de solicitar Bitcoin Cash ser enviados a esta cartera."
+msgid "Make sure you own the seed phrase or the private keys, before you request DeVault to be sent to this wallet."
+msgstr "Asegurarse de tener la frase semilla o las claves privadas antes de solicitar DeVault ser enviados a esta cartera."
 
 #: gui/qt/cashacctqt.py:884
 msgid "Make this Cash Account the default for this address"
@@ -4576,8 +4576,8 @@ msgid "Port"
 msgstr "Puerto"
 
 #: gui/qt/main_window.py:1491
-msgid "Posts a PERMANENT note to the BCH blockchain as part of this transaction."
-msgstr "Publicar una nota PERMANENTE en el blockchain BCH como parte de esta transacción."
+msgid "Posts a PERMANENT note to the DVT blockchain as part of this transaction."
+msgstr "Publicar una nota PERMANENTE en el blockchain DVT como parte de esta transacción."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1704
 msgid "Potentially Unsafe Operation"
@@ -5749,8 +5749,8 @@ msgid "Text copied to clipboard"
 msgstr "Texto copiado al portapapeles"
 
 #: gui/qt/main_window.py:1133
-msgid "The Bitcoin Cash address never expires and will always be part of this Electron Cash wallet."
-msgstr "La dirección Bitcoin Cash nunca expira y será siempre parte de esta cartera Electron Cash."
+msgid "The DeVault address never expires and will always be part of this Electron Cash wallet."
+msgstr "La dirección DeVault nunca expira y será siempre parte de esta cartera Electron Cash."
 
 #: gui/qt/main_window.py:1019
 msgid "The Cash Account (if any) associated with this address. It doesn't get saved with the request, but it is shown here for your convenience.\n\n"
@@ -5781,16 +5781,16 @@ msgstr "El código QR contiene multiples salidas. Actualmente son solo soportada
 "Por favor intentar nuevamente."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/send.py:120
-msgid "The QR code does not appear to be a valid BCH address or payment request.\n"
+msgid "The QR code does not appear to be a valid DVT address or payment request.\n"
 "Please try again."
-msgstr "El código QR no parece ser una dirección BCH o un pedido de pago válido.\n"
+msgstr "El código QR no parece ser una dirección DVT o un pedido de pago válido.\n"
 "Por favor intentar nuevamente."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:529
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:106
-msgid "The QR code does not appear to be a valid BCH address.\n"
+msgid "The QR code does not appear to be a valid DVT address.\n"
 "Please try again."
-msgstr "El código QR no parece ser una dirección BCH válida.\n"
+msgstr "El código QR no parece ser una dirección DVT válida.\n"
 "Por favor intentar nuevamente."
 
 #: gui/qt/main_window.py:4920
@@ -6143,8 +6143,8 @@ msgstr "Esto puede resultar en mayores tasas de transacción."
 
 #: gui/qt/main_window.py:463
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1050
-msgid "This means you will not be able to spend Bitcoin Cash with it."
-msgstr "Esto significa que no podrás gastar Bitcoin Cash con ella."
+msgid "This means you will not be able to spend DeVault with it."
+msgstr "Esto significa que no podrás gastar DeVault con ella."
 
 #: gui/qt/main_window.py:1250
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1173
@@ -6190,9 +6190,9 @@ msgstr "Esta cartera testnet tiene un formato de clave maestra inválido."
 
 #: gui/qt/main_window.py:2430
 #: ios/ElectronCash/electroncash_gui/ios_native/addrconv.py:47
-msgid "This tool helps convert between address formats for Bitcoin Cash addresses.\n"
+msgid "This tool helps convert between address formats for DeVault addresses.\n"
 "You are encouraged to use the 'Cash address' format."
-msgstr "Esta herramienta ayuda a convertir formatos de direcciones Bitcoin Cash.\n"
+msgstr "Esta herramienta ayuda a convertir formatos de direcciones DeVault.\n"
 "Se recomienda usar el formato 'Dirección Cash' (Cash Address)."
 
 #: gui/qt/udev_installer.py:66
@@ -7029,8 +7029,8 @@ msgid "You appear to have entered more than one item. Each wallet can only have 
 msgstr "Parece que has ingresado mas de un ítem. Cada cartera puede tener solo una clave maestra. Para usar multiples claves maestras, crear una nueva cartera por cada clave."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:942
-msgid "You appear to have entered no valid Bitcoin Cash addresses or private keys."
-msgstr "Parece que has ingresado direcciones Bitcoin Cash o claves privadas no válidas."
+msgid "You appear to have entered no valid DeVault addresses or private keys."
+msgstr "Parece que has ingresado direcciones DeVault o claves privadas no válidas."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:615
 msgid "You are about to delete the wallet '{}'. Unless you have other copies of this wallet or you wrote its seed down, you may lose funds!\n\n"
@@ -7121,7 +7121,7 @@ msgid "You have selected non-SSL mode for your server settings."
 msgstr "Has seleccionado modo no-SSL para tu configuración de servidor."
 
 #: gui/qt/main_window.py:1453
-msgid "You may enter:<ul><li> Bitcoin Cash <b>Address</b> <b>★</b><li> Bitcoin Legacy <b>Address</b> <b>★</b><li> <b>Cash Account</b> <b>★</b> e.g. <i>satoshi#123</i><li> <b>Contact name</b> <b>★</b> from the Contacts tab<li> <b>CoinText</b> e.g. <i>cointext:+1234567</i><li> <b>OpenAlias</b> e.g. <i>satoshi@domain.com</i></ul><br>&nbsp;&nbsp;&nbsp;<b>★</b> = Supports <b>pay-to-many</b>, where you may optionally enter multiple lines of the form:</span><br><pre>    recipient1, amount1 \n"
+msgid "You may enter:<ul><li> DeVault <b>Address</b> <b>★</b><li> Bitcoin Legacy <b>Address</b> <b>★</b><li> <b>Cash Account</b> <b>★</b> e.g. <i>satoshi#123</i><li> <b>Contact name</b> <b>★</b> from the Contacts tab<li> <b>CoinText</b> e.g. <i>cointext:+1234567</i><li> <b>OpenAlias</b> e.g. <i>satoshi@domain.com</i></ul><br>&nbsp;&nbsp;&nbsp;<b>★</b> = Supports <b>pay-to-many</b>, where you may optionally enter multiple lines of the form:</span><br><pre>    recipient1, amount1 \n"
 "    recipient2, amount2 \n"
 "    etc...</pre>"
 msgstr ""
@@ -7140,8 +7140,8 @@ msgid "You may optionally append an OP_RETURN message to the payment URI and/or 
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/receive.py:501
-msgid "You may share this payment request as a 'bitcoincash:' style URI, or as a QR Code Image."
-msgstr "Debes compartir esta solicitud de pago como estilo URI 'bitcoincash:', o como una imagen de código QR."
+msgid "You may share this payment request as a 'devault:' style URI, or as a QR Code Image."
+msgstr "Debes compartir esta solicitud de pago como estilo URI 'devault:', o como una imagen de código QR."
 
 #: plugins/shuffle/qt.py:1247 plugins/shuffle/qt.py:1250
 msgid "You may switch between shuffled and unshuffled spending using the radio buttons on the right."
@@ -7607,8 +7607,8 @@ msgid "{} new transactions: {}"
 msgstr "{} nuevas transacciones: {}"
 
 #: plugins/ledger/ledger.py:213
-msgid "{} not in Bitcoin Cash mode"
-msgstr "{} no está en modo Bitcoin Cash"
+msgid "{} not in DeVault mode"
+msgstr "{} no está en modo DeVault"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/utils.py:369
 msgid "{} saved successfully"
