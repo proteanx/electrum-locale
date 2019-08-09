@@ -3218,7 +3218,7 @@ msgid "Initialized"
 msgstr "已初始化"
 
 #: gui/qt/network_dialog.py:363
-msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the Electron Cash developers."
+msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the DeVault developers."
 msgstr ""
 
 #: gui/qt/transaction_dialog.py:424 gui/qt/transaction_dialog.py:697

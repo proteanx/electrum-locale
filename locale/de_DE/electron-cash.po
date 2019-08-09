@@ -3236,7 +3236,7 @@ msgid "Initialized"
 msgstr "Eingerichtet"
 
 #: gui/qt/network_dialog.py:363
-msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the Electron Cash developers."
+msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the DeVault developers."
 msgstr "Die bevorzugte Liste ist die Liste der bekannten Server, die von den Electron-Cash-Entwicklern getestet wurden."
 
 #: gui/qt/transaction_dialog.py:424 gui/qt/transaction_dialog.py:697
