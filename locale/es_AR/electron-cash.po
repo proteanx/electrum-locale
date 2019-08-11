@@ -286,8 +286,8 @@ msgid "(Custom)"
 msgstr "(Personalizado)"
 
 #: gui/qt/main_window.py:491
-msgid "(Old versions of Electron Cash before 3.3.6 produced invalid testnet wallets)."
-msgstr "(Versiones anteriores a Electron Cash 3.3.6 produjeron carteras testnet inválidas)."
+msgid "(Old versions of DeLight before 3.3.6 produced invalid testnet wallets)."
+msgstr "(Versiones anteriores a DeLight 3.3.6 produjeron carteras testnet inválidas)."
 
 #: plugins/labels/qt.py:86
 msgid "(Only deterministic wallets are supported)"
@@ -359,7 +359,7 @@ msgid "<br>Add anyone's Cash Account to your Contacts"
 msgstr ""
 
 #: gui/qt/main_window.py:4858
-msgid "<p>How it works: <b>Cash Accounts</b> registrations work by issuing an <b>OP_RETURN</b> transaction to yourself, costing fractions of a penny.</p><p>The registrations are permanently written to the blockchain and associate a human-friendly name with your address.</p><p>After the registration transaction receives <i>1 confirmation</i>, you can use your new <b>Cash Account name</b> as if it were an address and give it out to other people (Electron Cash or another Cash Account enabled wallet is required).</p><p><span style=\"font-weight:100;\">You will be offered the opportunity to review the generated transaction before broadcasting it to the blockchain.</span></p>"
+msgid "<p>How it works: <b>Cash Accounts</b> registrations work by issuing an <b>OP_RETURN</b> transaction to yourself, costing fractions of a penny.</p><p>The registrations are permanently written to the blockchain and associate a human-friendly name with your address.</p><p>After the registration transaction receives <i>1 confirmation</i>, you can use your new <b>Cash Account name</b> as if it were an address and give it out to other people (DeLight or another Cash Account enabled wallet is required).</p><p><span style=\"font-weight:100;\">You will be offered the opportunity to review the generated transaction before broadcasting it to the blockchain.</span></p>"
 msgstr ""
 
 #: gui/qt/cashacctqt.py:610
@@ -414,7 +414,7 @@ msgid "A network timeout occurred while looking up this Cash Account. You may wa
 msgstr ""
 
 #: gui/qt/__init__.py:589
-msgid "A new version of Electron Cash is available: {}"
+msgid "A new version of DeLight is available: {}"
 msgstr ""
 
 #: gui/qt/__init__.py:198
@@ -584,11 +584,11 @@ msgid "Advanced"
 msgstr "Avanzado"
 
 #: gui/qt/main_window.py:4923
-msgid "After at least <i>1 confirmation</i>, you will be able to use your new <b>Cash Account</b>, and it will be visible in Electron Cash in the <b>Addresses</b> tab."
+msgid "After at least <i>1 confirmation</i>, you will be able to use your new <b>Cash Account</b>, and it will be visible in DeLight in the <b>Addresses</b> tab."
 msgstr ""
 
 #: plugins/keepkey/qt.py:385 plugins/trezor/qt.py:351
-msgid "After disabling passphrases, you can only pair this Electron Cash wallet if it had an empty passphrase. If its passphrase was not empty, you will need to create a new wallet with the install wizard. You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
+msgid "After disabling passphrases, you can only pair this DeLight wallet if it had an empty passphrase. If its passphrase was not empty, you will need to create a new wallet with the install wizard. You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/addresses.py:30
@@ -651,7 +651,7 @@ msgid "Amount to be sent."
 msgstr "Monto a enviar."
 
 #: gui/qt/main_window.py:2729
-msgid "An Electron Cash update is available"
+msgid "An DeLight update is available"
 msgstr ""
 
 #: gui/qt/exception_window.py:70
@@ -755,7 +755,7 @@ msgid "Automatic high DPI scaling"
 msgstr ""
 
 #: gui/qt/__init__.py:724 gui/qt/__init__.py:728
-msgid "Automatic high DPI scaling has been enabled for Electron Cash, which should result in improved graphics quality."
+msgid "Automatic high DPI scaling has been enabled for DeLight, which should result in improved graphics quality."
 msgstr ""
 
 #: gui/qt/main_window.py:4074
@@ -783,12 +783,12 @@ msgid "BIP39 seed"
 msgstr "Semilla BIP39"
 
 #: gui/qt/seed_dialog.py:99
-msgid "BIP39 seeds can be imported in Electron Cash so that users can access funds locked in other wallets."
-msgstr "Semillas BIP39 pueden ser importadas a Electron Cash para que los usuarios puedan acceder fondos bloqueados en otras carteras."
+msgid "BIP39 seeds can be imported in DeLight so that users can access funds locked in other wallets."
+msgstr "Semillas BIP39 pueden ser importadas a DeLight para que los usuarios puedan acceder fondos bloqueados en otras carteras."
 
 #: gui/qt/seed_dialog.py:72
-msgid "BIP39 seeds can be imported into Electron Cash so that users can access funds from other wallets."
-msgstr "Semillas BIP39 pueden ser importadas en Electron Cash de forma que los usuarios pueden acceder fondos de otras carteras."
+msgid "BIP39 seeds can be imported into DeLight so that users can access funds from other wallets."
+msgstr "Semillas BIP39 pueden ser importadas en DeLight de forma que los usuarios pueden acceder fondos de otras carteras."
 
 #: gui/qt/seed_dialog.py:74
 msgid "BIP39 seeds do not include a version number, which makes compatibility with future software more difficult."
@@ -840,8 +840,8 @@ msgid "Banned Servers"
 msgstr "Servidores Prohibidos"
 
 #: gui/qt/network_dialog.py:365
-msgid "Banned servers ({}) are servers deemed unreliable and/or untrustworthy, and so they will never be connected-to by Electron Cash."
-msgstr "Los servidores prohibidos ({}) son servidores considerados no confiables y/o no fidedignos, por lo que Electron Cash nunca se conectará a ellos."
+msgid "Banned servers ({}) are servers deemed unreliable and/or untrustworthy, and so they will never be connected-to by DeLight."
+msgstr "Los servidores prohibidos ({}) son servidores considerados no confiables y/o no fidedignos, por lo que DeLight nunca se conectará a ellos."
 
 #: gui/text.py:63
 msgid "Banner"
@@ -862,8 +862,8 @@ msgid "Base unit of your wallet."
 msgstr "Unidad base de tu cartera."
 
 #: gui/qt/main_window.py:712
-msgid "Before reporting a bug, upgrade to the most recent version of Electron Cash (latest release or git HEAD), and include the version number in your report."
-msgstr "Antes de reportar un error, actualizar a la versión más reciente de Electron Cash (última versión o git) e incluir el número de versión en el reporte."
+msgid "Before reporting a bug, upgrade to the most recent version of DeLight (latest release or git HEAD), and include the version number in your report."
+msgstr "Antes de reportar un error, actualizar a la versión más reciente de DeLight (última versión o git) e incluir el número de versión en el reporte."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2022
 msgid "Biometrics Unavailable"
@@ -1714,8 +1714,8 @@ msgid "Copy {}"
 msgstr "Copiar {}"
 
 #: gui/qt/udev_installer.py:67
-msgid "Correct udev rules are required in order for a hardware wallet to be accessed by Electron Cash."
-msgstr "Reglas udev son requeridas para que una cartera hardware sea accedida por Electron Cash."
+msgid "Correct udev rules are required in order for a hardware wallet to be accessed by DeLight."
+msgstr "Reglas udev son requeridas para que una cartera hardware sea accedida por DeLight."
 
 #: lib/base_wizard.py:129
 msgid "Cosign with hardware device"
@@ -2114,106 +2114,106 @@ msgid "Edit {}"
 msgstr "Editar {}"
 
 #: lib/plugins.py:763
-msgid "Electron Cash cannot pair with your {}.\n\n"
+msgid "DeLight cannot pair with your {}.\n\n"
 "Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
 msgstr "Antes de solicitar bitcoins a ser enviados a direcciones en esta cartera, asegurarse de poder emparejar con dispositivo, o contar con semilla (y contrafrase, si existe). Caso contrario todos los bitcoins recibidos serán ingastables."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1418
-msgid "Electron Cash cannot proceed because this device is very low on disk space. Please free up some disk space and try again."
-msgstr "Electron Cash no puede continuar porque el dispositivo tiene poco espacio en disco. Liberar espacio en disco e intentar nuevamente."
+msgid "DeLight cannot proceed because this device is very low on disk space. Please free up some disk space and try again."
+msgstr "DeLight no puede continuar porque el dispositivo tiene poco espacio en disco. Liberar espacio en disco e intentar nuevamente."
 
 #: gui/qt/installwizard.py:513
-msgid "Electron Cash communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let Electron Cash pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Electron Cash se comunica con servidores remotos para obtener información sobre tus transacciones y direcciones. Todos los servidores cumplen el mismo propósito solo difiriendo en hardware. En la mayoría de los casos es deseado que Electron Cash elija uno al azar. Sin embargo es posible seleccionar un servidor manualmente."
+msgid "DeLight communicates with remote servers to get information about your transactions and addresses. The servers all fulfil the same purpose only differing in hardware. In most cases you simply want to let DeLight pick one at random.  However if you prefer feel free to select a server manually."
+msgstr "DeLight se comunica con servidores remotos para obtener información sobre tus transacciones y direcciones. Todos los servidores cumplen el mismo propósito solo difiriendo en hardware. En la mayoría de los casos es deseado que DeLight elija uno al azar. Sin embargo es posible seleccionar un servidor manualmente."
 
 #: gui/qt/network_dialog.py:421
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:493
-msgid "Electron Cash connects to several nodes in order to download block headers and find out the longest blockchain."
-msgstr "Electron Cash se conecta a varios nodos en orden de descargar cabezales de bloque y encontrar el blockchain más extenso."
+msgid "DeLight connects to several nodes in order to download block headers and find out the longest blockchain."
+msgstr "DeLight se conecta a varios nodos en orden de descargar cabezales de bloque y encontrar el blockchain más extenso."
 
 #: gui/qt/cashacctqt.py:398
-msgid "Electron Cash currently only supports Cash Account types 1 & 2"
+msgid "DeLight currently only supports Cash Account types 1 & 2"
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:29
-msgid "Electron Cash is an SPV wallet for DeVault"
-msgstr "Electron Cash es una cartera SPV para DeVault"
+msgid "DeLight is an SPV wallet for DeVault"
+msgstr "DeLight es una cartera SPV para DeVault"
 
 #: lib/base_wizard.py:453
-msgid "Electron Cash is generating your addresses, please wait."
-msgstr "Electron Cash esta generando direcciones, por favor esperar."
+msgid "DeLight is generating your addresses, please wait."
+msgstr "DeLight esta generando direcciones, por favor esperar."
 
 #: gui/qt/installwizard.py:26
-msgid "Electron Cash is generating your addresses, please wait..."
-msgstr "Electron Cash esta generando direcciones, por favor esperar..."
+msgid "DeLight is generating your addresses, please wait..."
+msgstr "DeLight esta generando direcciones, por favor esperar..."
 
 #: plugins/shuffle/qt.py:1666
-msgid "Electron Cash is in offline mode."
-msgstr "Electron Cash está en modo offline."
+msgid "DeLight is in offline mode."
+msgstr "DeLight está en modo offline."
 
 #: gui/qt/__init__.py:333
 #, python-brace-format
-msgid "Electron Cash on Linux requires PyQt5 5.12+.\n\n"
+msgid "DeLight on Linux requires PyQt5 5.12+.\n\n"
 "You have version {version_string} installed.\n\n"
-"Please upgrade otherwise you may experience font rendering issues with emojis and other unicode characters used by Electron Cash."
+"Please upgrade otherwise you may experience font rendering issues with emojis and other unicode characters used by DeLight."
 msgstr ""
 
 #: gui/qt/network_dialog.py:432
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:497
-msgid "Electron Cash sends your wallet addresses to a single server, in order to receive your transaction history."
-msgstr "Electron Cash envía tus direcciones de cartera a un solo servidor, en orden de recibir tu histórico de transacciones."
+msgid "DeLight sends your wallet addresses to a single server, in order to receive your transaction history."
+msgstr "DeLight envía tus direcciones de cartera a un solo servidor, en orden de recibir tu histórico de transacciones."
 
 #: gui/qt/installwizard.py:178
-msgid "Electron Cash wallet"
-msgstr "Cartera Electron Cash"
+msgid "DeLight wallet"
+msgstr "Cartera DeLight"
 
 #: gui/qt/main_window.py:540
-msgid "Electron Cash was unable to copy your wallet file to the specified location."
-msgstr "Electron Cash no pudo copiar el archivo de la cartera en la ubicación especificada."
+msgid "DeLight was unable to copy your wallet file to the specified location."
+msgstr "DeLight no pudo copiar el archivo de la cartera en la ubicación especificada."
 
 #: gui/qt/main_window.py:3247 gui/qt/main_window.py:3256
-msgid "Electron Cash was unable to deserialize the transaction:"
-msgstr "Electron Cash no pudo deserializar la transacción:"
+msgid "DeLight was unable to deserialize the transaction:"
+msgstr "DeLight no pudo deserializar la transacción:"
 
 #: gui/qt/contact_list.py:147
-msgid "Electron Cash was unable to export your contacts."
-msgstr "Electron Cash no pudo exportar tus contactos."
+msgid "DeLight was unable to export your contacts."
+msgstr "DeLight no pudo exportar tus contactos."
 
 #: gui/qt/main_window.py:3441
-msgid "Electron Cash was unable to export your labels."
-msgstr "Electron Cash no pudo exportar rótulos."
+msgid "DeLight was unable to export your labels."
+msgstr "DeLight no pudo exportar rótulos."
 
 #: gui/qt/__init__.py:675
-msgid "Electron Cash was unable to find the secp256k1 library on this system. Elliptic curve cryptography operations will be performed in slow Python-only mode."
-msgstr "Electron Cash no pudo encontrar la biblioteca secp256k1 en este sistema. Las operaciones de criptografía de curvas elípticas se realizarán sólo en modo lento Python."
+msgid "DeLight was unable to find the secp256k1 library on this system. Elliptic curve cryptography operations will be performed in slow Python-only mode."
+msgstr "DeLight no pudo encontrar la biblioteca secp256k1 en este sistema. Las operaciones de criptografía de curvas elípticas se realizarán sólo en modo lento Python."
 
 #: gui/qt/contact_list.py:134
-msgid "Electron Cash was unable to import your contacts."
-msgstr "Electron Cash no pudo importar tus contactos."
+msgid "DeLight was unable to import your contacts."
+msgstr "DeLight no pudo importar tus contactos."
 
 #: gui/qt/main_window.py:3426
-msgid "Electron Cash was unable to import your labels."
-msgstr "Electron Cash no pudo importar rótulos."
+msgid "DeLight was unable to import your labels."
+msgstr "DeLight no pudo importar rótulos."
 
 #: gui/qt/main_window.py:3232
-msgid "Electron Cash was unable to open your transaction file"
-msgstr "Electron Cash no pudo abrir archivo de transacción"
+msgid "DeLight was unable to open your transaction file"
+msgstr "DeLight no pudo abrir archivo de transacción"
 
 #: gui/qt/main_window.py:3164
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2229
-msgid "Electron Cash was unable to parse your transaction"
-msgstr "Electron Cash no pudo analizar la transacción"
+msgid "DeLight was unable to parse your transaction"
+msgstr "DeLight no pudo analizar la transacción"
 
 #: gui/qt/main_window.py:3391
-msgid "Electron Cash was unable to produce a private key-export."
-msgstr "Electron Cash no pudo exportar clave privada."
+msgid "DeLight was unable to produce a private key-export."
+msgstr "DeLight no pudo exportar clave privada."
 
 #: gui/qt/main_window.py:3466
-msgid "Electron Cash was unable to produce a transaction export."
-msgstr "Electron Cash no pudo exportar transacción."
+msgid "DeLight was unable to produce a transaction export."
+msgstr "DeLight no pudo exportar transacción."
 
 #: gui/qt/main_window.py:704
-msgid "Electron Cash's focus is speed, with low resource usage and simplifying DeVault. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the DeVault system."
+msgid "DeLight's focus is speed, with low resource usage and simplifying DeVault. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the DeVault system."
 msgstr ""
 
 #: plugins/email_requests/__init__.py:3
@@ -2275,8 +2275,8 @@ msgid "Enable posting messages with OP_RETURN."
 msgstr "Habilitar publicación de mensajes con OP_RETURN."
 
 #: gui/qt/main_window.py:4107
-msgid "Enable this option if you wish to be notified as soon as a new version of Electron Cash becomes available"
-msgstr "Activar esta opción para ser notificado cuando una nueva versión de Electron Cash esté disponible"
+msgid "Enable this option if you wish to be notified as soon as a new version of DeLight becomes available"
+msgstr "Activar esta opción para ser notificado cuando una nueva versión de DeLight esté disponible"
 
 #: gui/qt/main_window.py:4071
 msgid "Enable/disable this option if you experience graphical glitches (such as dialog box text being cut off"
@@ -2357,7 +2357,7 @@ msgid "Enter Seed"
 msgstr "Ingresar Semilla"
 
 #: gui/qt/cashacctqt.py:577
-msgid "Enter a Cash Account name of the form Name#123.45, and Electron Cash will search for the contact and present you with its resolved address."
+msgid "Enter a Cash Account name of the form Name#123.45, and DeLight will search for the contact and present you with its resolved address."
 msgstr ""
 
 #: gui/qt/main_window.py:521
@@ -2538,8 +2538,8 @@ msgid "Error: duplicate master public key"
 msgstr "Error: duplicar clave pública maestra"
 
 #: gui/qt/__init__.py:373
-msgid "Exit Electron Cash"
-msgstr "Salir de Electron Cash"
+msgid "Exit DeLight"
+msgstr "Salir de DeLight"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:512
 msgid "Expected conf."
@@ -2968,13 +2968,13 @@ msgid "Identity"
 msgstr "Identidad"
 
 #: gui/qt/network_dialog.py:336
-msgid "If 'Connect only to preferred servers' is enabled, Electron Cash will only connect to servers marked as 'preferred' servers ({})."
-msgstr "Si 'Conectar solo a servidores preferidos' está habilitado, Electron Cash solo se conectará a servidores marcados como 'preferidos' ({})."
+msgid "If 'Connect only to preferred servers' is enabled, DeLight will only connect to servers marked as 'preferred' servers ({})."
+msgstr "Si 'Conectar solo a servidores preferidos' está habilitado, DeLight solo se conectará a servidores marcados como 'preferidos' ({})."
 
 #: gui/qt/network_dialog.py:323
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:502
-msgid "If auto-connect is enabled, Electron Cash will always use a server that is on the longest blockchain."
-msgstr "Si auto-conectar esta habilitado, Electron Cash siempre usará el servidor que esta en el blockchain más largo."
+msgid "If auto-connect is enabled, DeLight will always use a server that is on the longest blockchain."
+msgstr "Si auto-conectar esta habilitado, DeLight siempre usará el servidor que esta en el blockchain más largo."
 
 #: gui/qt/main_window.py:4098
 msgid "If checked, the status bar button for toggling address formats will be hidden"
@@ -2985,7 +2985,7 @@ msgid "If enabled, a system notification will be presented when you receive fund
 msgstr ""
 
 #: gui/qt/network_dialog.py:331
-msgid "If enabled, restricts Electron Cash to connecting to servers only marked as 'preferred'."
+msgid "If enabled, restricts DeLight to connecting to servers only marked as 'preferred'."
 msgstr "Si habilitado, restringe DeVault a conectarse solo a servidores marcados como 'preferidos'."
 
 #: plugins/shuffle/qt.py:1248
@@ -2994,8 +2994,8 @@ msgstr "En caso de no haber suficientes fondos mezclados, esperar unos minutos m
 
 #: gui/qt/network_dialog.py:324
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:503
-msgid "If it is disabled, you have to choose a server you want to use. Electron Cash will warn you if your server is lagging."
-msgstr "Si está desabilitado, tienes que elegir el servidor que deseas usar. Electron Cash notificará si ese servidor esta retrasado."
+msgid "If it is disabled, you have to choose a server you want to use. DeLight will warn you if your server is lagging."
+msgstr "Si está desabilitado, tienes que elegir el servidor que deseas usar. DeLight notificará si ese servidor esta retrasado."
 
 #: gui/qt/console.py:65
 msgid "If someone you do not trust wants you to enter something here, that person might be attempting a social engineering / phishing attack on you."
@@ -3043,7 +3043,7 @@ msgid "If you do not know what this is, leave this field empty."
 msgstr "Si no estás seguro que es esto, deja este campo vacío."
 
 #: gui/qt/main_window.py:4688
-msgid "If you enable it, Electron Cash will shuffle your coins for greater <b>privacy</b>. However, you will pay fractions of a penny per shuffle in transaction fees."
+msgid "If you enable it, DeLight will shuffle your coins for greater <b>privacy</b>. However, you will pay fractions of a penny per shuffle in transaction fees."
 msgstr ""
 
 #: plugins/keepkey/qt.py:35 plugins/trezor/qt.py:33
@@ -3164,8 +3164,8 @@ msgid "Importing these keys will create a fully capable spending wallet."
 msgstr "Importar estas claves creará una cartera expendedora plena."
 
 #: gui/qt/seed_dialog.py:103
-msgid "In addition, Electron Cash does not verify the checksum of BIP39 seeds; make sure you type your seed correctly."
-msgstr "Adicionalmente, Electron Cash no verifica el checksum de semillas BIP39. Asegurarse de ingresar la semilla correctamente."
+msgid "In addition, DeLight does not verify the checksum of BIP39 seeds; make sure you type your seed correctly."
+msgstr "Adicionalmente, DeLight no verifica el checksum de semillas BIP39. Asegurarse de ingresar la semilla correctamente."
 
 #: plugins/shuffle/__init__.py:7
 msgid "In addition, a blame protocol is used to mitigate time-wasting denial-of-service type attacks."
@@ -3228,7 +3228,7 @@ msgstr "Inicializado"
 
 #: gui/qt/network_dialog.py:363
 msgid "Initially, the preferred list is the hard-coded list of known-good servers vetted by the DeVault developers."
-msgstr "Inicialmente, la lista de preferidos es la lista codificada de servidores conocidos y comprobados por los desarrolladores de Electron Cash."
+msgstr "Inicialmente, la lista de preferidos es la lista codificada de servidores conocidos y comprobados por los desarrolladores de DeLight."
 
 #: gui/qt/transaction_dialog.py:424 gui/qt/transaction_dialog.py:697
 #, python-brace-format
@@ -3261,9 +3261,9 @@ msgstr "Instalar Asistente"
 
 #: gui/qt/external_plugins_window.py:267
 msgid "Install plugins at your own risk.\n"
-"They have almost complete access to Electron Cash's internals."
+"They have almost complete access to DeLight's internals."
 msgstr "Instalar plugins bajo propio riesgo.\n"
-"Ellos tienen acceso casi completo al interior de Electron Cash."
+"Ellos tienen acceso casi completo al interior de DeLight."
 
 #: gui/qt/udev_installer.py:139
 msgid "Installed"
@@ -3402,8 +3402,8 @@ msgid "It sends and receives partially signed transactions from/to your cosigner
 msgstr "Envía y recibe transacciones parcialmente firmadas desde/a la cartera de cosignatario."
 
 #: gui/qt/external_plugins_window.py:42
-msgid "It was not possible to copy the plugin archive into Electron Cash's plugin storage location. It was therefore not possible to install it."
-msgstr "No fue posible copiar el archivo del plugin en la ubicación de almacenamiento de Electron Cash. Por lo tanto no fue posible instalarlo."
+msgid "It was not possible to copy the plugin archive into DeLight's plugin storage location. It was therefore not possible to install it."
+msgstr "No fue posible copiar el archivo del plugin en la ubicación de almacenamiento de DeLight. Por lo tanto no fue posible instalarlo."
 
 #: gui/qt/util.py:491
 msgid "JSON"
@@ -4470,8 +4470,8 @@ msgid "Please report any bugs as issues on github:<br/>"
 msgstr "Por favor, reportar cualquier error como issues en github:<br/>"
 
 #: gui/qt/main_window.py:4355
-msgid "Please restart Electron Cash to activate the new GUI settings"
-msgstr "Reiniciar Electron Cash para activar la nueva configuración de GUI"
+msgid "Please restart DeLight to activate the new GUI settings"
+msgstr "Reiniciar DeLight para activar la nueva configuración de GUI"
 
 #: gui/qt/main_window.py:2008
 msgid "Please review payment before sending CoinText"
@@ -4525,8 +4525,8 @@ msgid "Please wait"
 msgstr "Por favor esperar"
 
 #: gui/qt/update_checker.py:236
-msgid "Please wait while Electron Cash checks for available updates."
-msgstr "Esperar mientras Electron Cash verifica actualizaciones disponibles."
+msgid "Please wait while DeLight checks for available updates."
+msgstr "Esperar mientras DeLight verifica actualizaciones disponibles."
 
 #: gui/qt/installwizard.py:119 gui/text.py:354 gui/stdio.py:203
 #: lib/wallet.py:1413
@@ -4677,7 +4677,7 @@ msgid "Proxy"
 msgstr "Proxy"
 
 #: gui/qt/network_dialog.py:410
-msgid "Proxy settings apply to all connections: with Electron Cash servers, but also with third-party services."
+msgid "Proxy settings apply to all connections: with DeLight servers, but also with third-party services."
 msgstr "Configuraciones proxy aplican a todas las conexiones: con servidores electron Cash, pero también con servicios de terceros."
 
 #: gui/qt/network_dialog.py:385
@@ -5044,8 +5044,8 @@ msgid "Save invoice to file"
 msgstr "Guardar factura como archivo"
 
 #: plugins/labels/__init__.py:5
-msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use Electron Cash."
-msgstr "Guardar rótulos de cartera en servidor remoto, y sincronizarlos a través de los múltiples dispositivos donde usas Electron Cash."
+msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use DeLight."
+msgstr "Guardar rótulos de cartera en servidor remoto, y sincronizarlos a través de los múltiples dispositivos donde usas DeLight."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/wallets.py:630
 msgid "Save/Export Wallet"
@@ -5556,8 +5556,8 @@ msgstr "Algunos fondos no mezclados pueden ser temporalmente bloqueados durante 
 
 #: gui/qt/exception_window.py:77
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:58
-msgid "Something went wrong running Electron Cash."
-msgstr "Algo salió mal ejecutando Electron Cash."
+msgid "Something went wrong running DeLight."
+msgstr "Algo salió mal ejecutando DeLight."
 
 #: gui/qt/exception_window.py:75
 #: ios/ElectronCash/electroncash_gui/ios_native/crashreporter.py:58
@@ -5749,8 +5749,8 @@ msgid "Text copied to clipboard"
 msgstr "Texto copiado al portapapeles"
 
 #: gui/qt/main_window.py:1133
-msgid "The DeVault address never expires and will always be part of this Electron Cash wallet."
-msgstr "La dirección DeVault nunca expira y será siempre parte de esta cartera Electron Cash."
+msgid "The DeVault address never expires and will always be part of this DeLight wallet."
+msgstr "La dirección DeVault nunca expira y será siempre parte de esta cartera DeLight."
 
 #: gui/qt/main_window.py:1019
 msgid "The Cash Account (if any) associated with this address. It doesn't get saved with the request, but it is shown here for your convenience.\n\n"
@@ -5759,7 +5759,7 @@ msgstr ""
 
 #: gui/qt/cashacctqt.py:168 gui/qt/cashacctqt.py:772
 #, python-brace-format
-msgid "The Cash Account {name} uses an account type that is not supported by Electron Cash."
+msgid "The Cash Account {name} uses an account type that is not supported by DeLight."
 msgstr ""
 
 #: plugins/digitalbitbox/digitalbitbox.py:212
@@ -5767,8 +5767,8 @@ msgid "The Digital Bitbox is already seeded. Choose an option:"
 msgstr "Digital Bitbox ya cuenta con semillas, Elegir una opción:"
 
 #: gui/qt/external_plugins_window.py:119
-msgid "The Electron Cash Developers do NOT audit or vet any plugins."
-msgstr "Los desarrolladores de Electron Cash NO auditan o vetan ningún plugin."
+msgid "The DeLight Developers do NOT audit or vet any plugins."
+msgstr "Los desarrolladores de DeLight NO auditan o vetan ningún plugin."
 
 #: plugins/keepkey/clientbase.py:54 plugins/trezor/clientbase.py:283
 msgid "The PIN cannot be longer than 9 characters."
@@ -5861,8 +5861,8 @@ msgstr "Lo siguiente no pudo ser importado"
 
 #: gui/qt/installwizard.py:260
 #, python-format
-msgid "The format of your wallet '%s' must be upgraded for Electron Cash. This change will not be backward compatible"
-msgstr "El formato de su cartera de '%s' debe ser actualizado por Electron Cash. Este cambio no será compatible en dirección opuesta"
+msgid "The format of your wallet '%s' must be upgraded for DeLight. This change will not be backward compatible"
+msgstr "El formato de su cartera de '%s' debe ser actualizado por DeLight. Este cambio no será compatible en dirección opuesta"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:343
 msgid "The message has been successfully decrypted"
@@ -5874,8 +5874,8 @@ msgstr "La mnemónica necesita ser de 12, 18 o 24 palabras."
 
 #: gui/qt/main_window.py:2997
 #: ios/ElectronCash/electroncash_gui/ios_native/sign_decrypt_dialog.py:241
-msgid "The operation is undefined. Not just in Electron Cash, but in general."
-msgstr "Operación no definida. No solo en Electron Cash, sino en general."
+msgid "The operation is undefined. Not just in DeLight, but in general."
+msgstr "Operación no definida. No solo en DeLight, sino en general."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1675
 msgid "The password was incorrect for this encrypted wallet, please try again."
@@ -5898,12 +5898,12 @@ msgid "The plugin archive you selected is missing a manifest. It was therefore n
 msgstr "Al plugin seleccionado le esta faltando el archivo de manifiesto. Por tal motivo no es posible instalarlo."
 
 #: gui/qt/external_plugins_window.py:43
-msgid "The plugin is installed, but in the process of enabling and loading it, an error occurred. Restart Electron Cash and try again, or uninstall it and report it to it's developers."
-msgstr "El plugin está instalado, pero en el proceso de carga y habilitación se ha producido un error. Reiniciar Electron Cash e intentar nuevamente, o desinstalarlo el plugin y reportarlo a sus desarolladores."
+msgid "The plugin is installed, but in the process of enabling and loading it, an error occurred. Restart DeLight and try again, or uninstall it and report it to it's developers."
+msgstr "El plugin está instalado, pero en el proceso de carga y habilitación se ha producido un error. Reiniciar DeLight e intentar nuevamente, o desinstalarlo el plugin y reportarlo a sus desarolladores."
 
 #: gui/qt/external_plugins_window.py:44
-msgid "The plugin is targeted at a later version of Electron Cash."
-msgstr "Plugin diseñado para una versión posterior de Electron Cash."
+msgid "The plugin is targeted at a later version of DeLight."
+msgstr "Plugin diseñado para una versión posterior de DeLight."
 
 #: gui/qt/external_plugins_window.py:46
 msgid "The plugin manifest is not recognized as valid JSON."
@@ -5918,8 +5918,8 @@ msgid "The plugin manifest lacks a valid display name."
 msgstr "El manifiesto del plugin carece de un nombre válido."
 
 #: gui/qt/external_plugins_window.py:50
-msgid "The plugin manifest lacks a valid minimum Electron Cash version."
-msgstr "El manifiesto del plugin carece de la mínima versión válida de Electron Cash."
+msgid "The plugin manifest lacks a valid minimum DeLight version."
+msgstr "El manifiesto del plugin carece de la mínima versión válida de DeLight."
 
 #: gui/qt/external_plugins_window.py:51
 msgid "The plugin manifest lacks a valid package name."
@@ -6175,8 +6175,8 @@ msgid "This server is still indexing transactions. You should switch to another 
 msgstr "Este servidor continúa indexando transacciones. Cambiar a otro servidor por el momento."
 
 #: plugins/shuffle/qt.py:1204
-msgid "This spending mode is the same as previous versions of Electron Cash, which did not offer CashShuffle."
-msgstr "Este modo de gasto es el mismo que versiones anteriores de Electron Cash, que no ofrecía CashShuffle."
+msgid "This spending mode is the same as previous versions of DeLight, which did not offer CashShuffle."
+msgstr "Este modo de gasto es el mismo que versiones anteriores de DeLight, que no ofrecía CashShuffle."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:1705
 msgid "This spending wallet is not encrypted and not password protected. Sharing it over the internet could result in others intercepting the data and for you to potentially lose funds.\n\n"
@@ -6212,8 +6212,8 @@ msgid "This type of script is not supported with {}."
 msgstr "Este tipo de script no es soportado con {}."
 
 #: ios/ElectronCash/electroncash_gui/ios_native/contacts.py:801
-msgid "This version of Electron Cash currently only supports sending to 1 address at a time! Sorry!"
-msgstr "Esta versión de Electron Cash actualmente solo soporta enviar a 1 dirección a la vez! Lo siento!"
+msgid "This version of DeLight currently only supports sending to 1 address at a time! Sorry!"
+msgstr "Esta versión de DeLight actualmente solo soporta enviar a 1 dirección a la vez! Lo siento!"
 
 #: gui/qt/main_window.py:2945
 #: ios/ElectronCash/electroncash_gui/ios_native/gui.py:2045
@@ -6947,8 +6947,8 @@ msgid "Warning: do not use this if it makes you pick a weaker password."
 msgstr "Atención: no utilizar esto si te hace elegir una contraseña débil."
 
 #: gui/qt/seed_dialog.py:102
-msgid "We do not guarantee that BIP39 imports will always be supported in Electron Cash."
-msgstr "No garantizamos que las importaciones BIP39 serán siempre soportadas en Electron Cash."
+msgid "We do not guarantee that BIP39 imports will always be supported in DeLight."
+msgstr "No garantizamos que las importaciones BIP39 serán siempre soportadas en DeLight."
 
 #: lib/base_wizard.py:249
 msgid "We encountered an error while connecting to your device:"
@@ -7039,8 +7039,8 @@ msgstr "Estás a punto de Eliminar la cartera '{}'. A menos que tengas otras cop
 "Para proceder, escribir 'eliminar' en el campo siguiente:"
 
 #: gui/qt/update_checker.py:227
-msgid "You are already on the latest version of Electron Cash."
-msgstr "Utilizando la última versión de Electron Cash."
+msgid "You are already on the latest version of DeLight."
+msgstr "Utilizando la última versión de DeLight."
 
 #: gui/qt/network_dialog.py:535
 #: ios/ElectronCash/electroncash_gui/ios_native/network_dialog.py:264
@@ -7069,8 +7069,8 @@ msgid "You are requesting the deletion of the currently active wallet. In order 
 msgstr "Estás solicitando eliminar la cartera actualmente activa. En orden de eliminar esta cartera, cambia a otra cartera y entonces selecciona esta opción nuevamente."
 
 #: gui/qt/__init__.py:641 plugins/labels/qt.py:91
-msgid "You are using Electron Cash in offline mode; restart Electron Cash if you want to get connected"
-msgstr "Estás usando Electron Cash en modo offline, reinicia Electron Cash si quieres conectarte"
+msgid "You are using DeLight in offline mode; restart DeLight if you want to get connected"
+msgstr "Estás usando DeLight en modo offline, reinicia DeLight si quieres conectarte"
 
 #: gui/qt/main_window.py:1319
 msgid "You are using a non-deterministic wallet, which cannot create new addresses."
@@ -7097,8 +7097,8 @@ msgid "You can have as many wallets as you like! Choose from one of the options 
 msgstr "¡Podés tener tantas carteras como quieras! Seleccioná una de las opciones:"
 
 #: ios/ElectronCash/electroncash_gui/ios_native/newwallet.py:403
-msgid "You can restore a wallet that was created by any version of Electron Cash."
-msgstr "Puedes restaurar una cartera que haya sido creada por cualquier versión de Electron Cash."
+msgid "You can restore a wallet that was created by any version of DeLight."
+msgstr "Puedes restaurar una cartera que haya sido creada por cualquier versión de DeLight."
 
 #: plugins/trezor/qt.py:578
 msgid "You can set the homescreen on your device to personalize it. You can choose any image and it will be dithered, scaled and converted to {} x {} {} for the device."
@@ -7156,7 +7156,7 @@ msgid "You may try the \"Hardware Wallet Support\" tool (below)."
 msgstr "Probar \"Soporte de la Cartera Hardware\" (abajo)."
 
 #: plugins/keepkey/qt.py:27 plugins/trezor/qt.py:25
-msgid "You need to create a separate Electron Cash wallet for each passphrase you use as they each generate different addresses. Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
+msgid "You need to create a separate DeLight wallet for each passphrase you use as they each generate different addresses. Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
 msgstr ""
 
 #: ios/ElectronCash/electroncash_gui/ios_native/txdetail.py:454
@@ -7205,7 +7205,7 @@ msgid "Your contact list is empty."
 msgstr "Lista de contactos vacía."
 
 #: plugins/keepkey/qt.py:392 plugins/trezor/qt.py:358
-msgid "Your current Electron Cash wallet can only be used with an empty passphrase. You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
+msgid "Your current DeLight wallet can only be used with an empty passphrase. You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
 msgstr ""
 
 #: plugins/keepkey/keepkey.py:337
